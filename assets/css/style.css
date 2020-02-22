@@ -107,6 +107,8 @@ li {
   Header styling starts here
 =================================*/
 
+header {margin-bottom: 17px;}
+
 header .wrapper { 
   display: flex;
   border-bottom: 1px solid #b1b2b3;
@@ -234,10 +236,61 @@ nav {
   banner styling starts here
 =================================*/ 
 
+.banner {
+  padding-top: 1px;
+  background: url('https://via.placeholder.com/1365x305') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.banner-wrapper { width: 84%;}
 
+.banner-content {
+  padding: 0 3%;
+  margin-top: 175px;
+  background: rgba(255, 255, 255, 0.5);
+}
 
+.pagination {
+  padding: 34px 0 14px;
+}
 
+.pagination a {
+  color: #a3a5aa;
+  text-transform: capitalize;
+}
 
+.pagination-active {
+  position: relative;
+}
+
+.pagination-active::before { 
+  content: '';
+  width: 70%;
+  height: 2px;
+  top: 100%;
+  position: absolute;
+  background: #a3a5aa;
+}
+
+.angle-right::after {
+  content: '\f105';
+  padding: 10px;
+  font-family: fontAwesome;
+  
+}
+
+.banner-content h2 {
+  color: #30489a;
+  font-weight: 100;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
+  font-size: 35px;
+}
+.banner-content h2 span {
+  color: #33489a;
+  font-weight: 100;
+  text-transform: capitalize;
+}
 
 
  /*=================================
