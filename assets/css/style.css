@@ -796,6 +796,24 @@ footer p {
     top: 25%;
   }
 
+  .navigation-links li:nth-child(2):hover .dropdown-content { 
+    display: block;
+    position: absolute;
+    width: 30%;
+    left: 61%;
+    top: 71px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: 1px solid;
+    border-style: ridge;
+  }
+
+  .navigation-links li:nth-child(2):hover .dropdown-content a {
+    padding: 10px;
+    border-bottom: 1px solid;
+  }
+
   .hamburger-nav {
     flex-direction: column;
     width: 800px;
@@ -857,7 +875,8 @@ footer p {
     position: absolute;
     font-family: fontAwesome;
     float: left;
-    left: 0;
+    left: 65px;
+    top: -30px;
     text-indent: 0;
     transition: all 0.3s ease;
   }
@@ -896,6 +915,24 @@ footer p {
   .generalMotors .team-members,
   .mobility-slider { width: 100%; }
   .slide-info { width: 86%; }
+
+  .navigation-links li:nth-child(2):hover .dropdown-content { 
+    display: block;
+    position: absolute;
+    width: 30%;
+    left: 61%;
+    top: 71px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: 1px solid;
+    border-style: ridge;
+  }
+
+  .navigation-links li:nth-child(2):hover .dropdown-content a {
+    padding: 10px;
+    border-bottom: 1px solid;
+  }
 
   .tab-links { 
     display: flex;
