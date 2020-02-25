@@ -628,25 +628,83 @@ header .social-icons {
   mobility styling ends here
 =================================*/
 
-
-
 /*=================================
   main styling ends here
 =================================*/
 
 /*=================================
   footer styling starts here
-=================================*/ 
+=================================*/
 
+footer { padding: 48px 0 78px; }
 
+footer .wrapper { 
+  width: 83%;
+  display:flex; 
+  justify-content: space-between;
+}
 
+.footer-content {
+  width: 50%;
+  display: flex;
+  float: right;
+  flex-direction: column;
+  justify-content: flex-end;
+}
 
+footer h6 { float: left; }
+footer .social-icons { margin: 0 0px 31px 18%; }
+footer .social-icons li { margin: 0 0 0 14%; }
 
+footer .facebook::before,
+footer .twitter::before,
+footer .youtube::before,
+footer .linkedin::before,
+footer .microsoft::before {
+  font-family: fontAwesome;
+  float: right;
+  text-indent: 0;
+  transform: scale(1.7);
+  transition: all 0.3s ease;
+}
 
+footer .facebook::before { color: #305791; }
+footer .twitter::before { color: #31a7e3; }
+footer .youtube::before { color: #db3e2c; }
+footer .linkedin::before { color: #2887b6; }
+footer .microsoft::before { color: #7ec346; }
 
- /*=================================
+.site-links {
+  width: 85%;
+  align-self: flex-end;
+  text-align: end;
+}
+
+.site-links li a { 
+  color: #797a7c;
+  font-size: 14px;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+}
+
+.site-links li { line-height: 1.5; }
+.site-links li:last-child::after { content: ''; }
+
+.site-links li::after {  
+  content: '|';
+  color: #797a7c;
+}
+
+footer p { 
+  padding-top: 32px;
+  font-size: 14px;
+  color: #797a7c;
+  text-align: right;
+}
+
+/*=================================
   footer styling ends here
-=================================*/ 
+=================================*/
 
 /*media query starts*/
 /*media query for 995px starts here*/
